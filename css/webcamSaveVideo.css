@@ -1,0 +1,76 @@
+body{
+	background-color: #000000;
+}
+
+#conteudo{
+	background-color: #242424;
+	width: 960px;
+	height: 600px;
+	margin: auto;
+}
+
+h1 {
+	color: #989898;
+	text-align: center;
+	font-weight:bold;
+	margin-top:15px;
+}
+
+.box {
+	width: 300px;
+	height: 230px;
+	float: left;
+	background-color: #0b0b0b;
+	margin-left: 15px;
+}
+
+
+
+
+video {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 280px;
+	height: 210px;
+}
+
+canvas {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 280px;
+	height: 210px;
+}
+
+
+
+
+#capturar {
+	margin-left: 68px;
+}
+
+
+#gravar {
+	margin-left: 110px;
+}
+
+#compilar {
+	margin-left: 110px;
+}
+
+button{
+    padding: 6px 10px;
+    cursor:pointer;
+    color: #989898;
+    background: #0b0b0b;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+footer {
+	top: 50px;
+	color: #989898;
+	text-align: center;
+	font-weight:bold;
+	position: relative;
+}

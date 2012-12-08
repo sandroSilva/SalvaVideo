@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>SnopShot</title>
+        <link rel="stylesheet" href="css/webcamSaveVideo.css">
+    </head>
+    <body>
+        <div id="conteudo">
+            <header>
+                <h1>Trabalho com webcam em Javascript - Salvar Video</h1>
+            </header>
+
+            <div class="box">
+                <video id="monitor" autoplay></video>
+            </div>
+
+           <div class="box"> 
+                <canvas id="canvas" width = "280px" height="210"></canvas>
+           </div>
+
+           <div class="box">
+                <video id="videosalvo" controls autoplay loop></video>
+
+           </div>
+
+           <div class="btns">
+                <button id="capturar" onclick="init(this)">Capture</button>
+                <button id="gravar" onclick="gravaVideo()">GravaVideo</button>
+                <button id="compilar" onclick="compilaVideo()">Enviar</button>  
+           </div>
+
+            <footer id="errorMessage">
+                Status: <span id="status">Em Espera</span>
+                <a style="display:none" id="download" download="video.webm">Download WebM</a>
+            </footer>
+
+        </div>
+	<script type="text/javascript" src="js/whammy.js" > </script>
+    <script type="text/javascript" src="js/webcamWork.js" > </script>
+    </body>
+</html>
